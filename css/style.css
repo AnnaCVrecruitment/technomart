@@ -13,6 +13,7 @@
   --basic-yellow: #FFD180; 
   --basic-catalog-header: #F2F6F8;
   --basic-catalog-background: #F7F3EC;
+  --shadow-logo: rgba(0, 0, 0, 0.24);
 
   --promo-1: #FFBF47;
   --promo-2: #3BBCE3;
@@ -114,7 +115,7 @@ img{
    
 /*popular goods*/
 
- h2{
+ .main-section-header{
   font-size: 30px;
   line-height: 30px;
   color: var(--basic-blue);
@@ -137,6 +138,9 @@ img{
 /*services*/ 
 
 .services-header{
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
   color: var(--basic-black);
 }
 .services{
@@ -184,13 +188,10 @@ img{
   text-transform: uppercase;
 }
 
-
-
-
 /*footer*/
 
 .logo{
-  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: inset 0px -5px 0px var(--shadow-logo);
 }
 .background-footer{
   background-color: var(--basic-blue);
@@ -212,16 +213,17 @@ img{
 .additional-navigation{
   list-style: none;
 }
-.additional-navigation a{color:var(--basic-yellow);
+.additional-navigation a{
+  color: var(--basic-yellow);
 }
 
-.lower-backgroundfooter{
+.lower-background-footer{
   background-color: var(--basic-dark-blue);
 }
-.lower-backgroundfooter p{
+.lower-background-footer p{
   color: var(--basic-white);
 }
-.lower-backgroundfooter a{
+.lower-background-footer a{
   color: var(--basic-yellow);
 }
 
