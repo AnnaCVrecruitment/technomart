@@ -1,4 +1,4 @@
-:root{
+:root {
   --basic-main-background: #888888;
   --basic-dark-blue: #293449;
   --basic-red: #EE3643;
@@ -87,9 +87,20 @@ img {
   font-style: italic;
 }
 
-.phone {
+.search-form input{
+  background: var(--basic-dark-blue);
+  border: none;
+}
+
+.header-phone {
   color: var(--basic-red);
-}  
+} 
+
+.header-address {
+  font-size: 14px;
+  line-height: 24px;
+  color: var( --basic-blue);
+}
 
 /*NAV*/
    
@@ -114,11 +125,11 @@ img {
 
 /*promo*/  
 
-.promo-list {
+.promo-list p {
   list-style: none;
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 /*promo-list a{
